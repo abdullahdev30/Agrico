@@ -1,0 +1,165 @@
+{
+ "heroSection": {
+      "title": "Innovating Agriculture for a Better, Sustainable Future",
+      "description": "A technology-driven hub for farming, dairy, tractors, and equipment rental built for today's needs.",
+      "backgroundImage": "/IMG-20251213-WA0097.jpg"
+    },
+ "metricsBlock": {
+        "headline": "INNOVATING THE FUTURE OF AGRICULTURE",
+        "tagline": "Blending tech and tradition to deliver efficient, accurate, and sustainable farming.",
+        "metrics": [
+          {
+            "value": "100 %",
+            "title": "CUSTOMER SATISFACATION",
+            "details": "We Create Solutions that Farmers Can Rely on."
+          },
+          {
+            "value": "20+",
+            "title": "Years of Experience",
+            "details": "Decades of innovation driving progress in global agriculture."
+          },
+          {
+            "value": "20+",
+            "title": "years in agriculture & machinery",
+            "details": "We understand farmers' needs and consistently deliver quality and service that ensure complete client satisfaction."
+          }
+        ],
+        "imageGallery": [
+          {
+            "imagePath": "/home_page/sectionB_img1.svg",
+            "altText": "Two farmers wearing conical hats working in a tea plantation."
+          },
+          {
+            "imagePath": "/home_page/sectionbB_img2.svg",
+            "altText": "A close-up view of golden rice grains ready for harvest."
+          }
+        ]
+      },
+"innovationSection": {
+      "category": "Our Farming Innovation",
+      "heading": "WHERE TECHNOLOGY MEETS THE ROOTS OF NATURE",
+      "summary": "Harnessing the power of modern tools nurture crops, support farmers and protect the earth we all depend on.",
+      "features": [
+        {
+          "title": "Modern irrigation techniques",
+          "description": "Utilizing precise water delivery systems to conserve resources.",
+          "imagePath": "/home_page/image1.svg",
+          "altText": "A farmer holding a tablet displaying a 3D model of a tree and root system in a field."
+        },
+        {
+          "title": "Smart Analytics Powering Modern Farming",
+          "description": "Using data to optimize yields, track soil health, and monitor field conditions.",
+          "imagePath": "/home_page/image2.svg",
+          "altText": "An aerial view of a farm field overlaid with data visualizations and analytics graphics."
+        },
+        {
+          "title": "Solar power systems",
+          "description": "Integrating renewable energy like solar and wind power into farming operations.",
+          "imagePath": "/home_page/image3.svg",
+          "altText": "A field with solar panels and wind turbines under a dramatic sky."
+        },
+        {
+          "title": "Precision Analysis for Stronger Crops",
+          "description": "Detailed analysis of crops using technology to ensure optimal growth and health.",
+          "imagePath": "/home_page/image4.svg",
+          "altText": "A farmer in a crop field holding a tablet and inspecting rice grains."
+        }
+      ]
+    },
+     "expertiseSection": {
+      "heading": "What We Excel At",
+      "tagline": "Blending innovation and expertise to elevate every step of farming.",
+      "services": [
+        {
+          "title": "Advanced Crop Farming",
+          "description": "Boosting yields with modern, sustainable techniques.",
+          "imagePath": "/home_page/image7.svg",
+          "altText": "A scientist inspecting a crop sample in a lab coat inside a greenhouse."
+        },
+        {
+          "title": "Smart Dairy Management",
+          "description": "Hygienic, efficient, and high-quality dairy operations.",
+          "imagePath": "/home_page/image5.svg",
+          "altText": "A worker inspecting large stainless steel dairy vats."
+        },
+        {
+          "title": "Trusted Machinery & Tractors",
+          "description": "Buy and sell reliable, performance-driven equipment.",
+          "imagePath": "/home_page/image6.svg",
+          "altText": "A large green CLAAS combine harvester in a field."
+        },
+        {
+          "title": "Farm Equipment Rentals",
+          "description": "Access modern machinery whenever you need it.",
+          "imagePath": "/home_page/image8.svg",
+          "altText": "A row of bright yellow and green seeding equipment ready for use."
+        }
+      ]
+    },
+ "reasonsToChooseSection": {
+      "heading": "WHY CHOOSE AGRICO",
+      "reasons": [
+        {
+          "title": "Trusted Expertise",
+          "description": "With decades of hands-on farming experience, we make every decision with proven knowledge, skill, and a deep understanding of land, crops, and machinery."
+        },
+        {
+          "title": "Technology-Driven Farming",
+          "description": "We use modern tools like drones, solar systems, CCTV, and automation to deliver precise, efficient, and reliable agricultural and dairy operations."
+        },
+        {
+          "title": "Reliable & Complete Services",
+          "description": "From dairy and crop farming to equipment rental and tractor trading, we provide fast, efficient, and high-quality services farmers and businesses can trust."
+        }
+      ]
+    },
+    "aboutSection": {
+      "category": "ABOUT OUR COMPANY",
+      "heading": "Yielding Results Together",
+      "detailedDescription": "We are a comprehensive agricultural business dedicated to modern farming, dairy production, and agricultural machinery solutions. Combining over years of hands-on expertise with the latest technology, we ensure sustainable crop cultivation, healthy and hygienic dairy operations, and reliable tractor trading and equipment rental services. Our farms are equipped with solar-powered systems, CCTV monitoring, drone spraying, and submersible pumps, allowing us to maximize productivity and efficiency. Through our integrated approach, we help farmers and businesses achieve higher yields, healthier livestock, and consistent, dependable results — all while providing professional, customer-focused services in both English and Urdu.",
+      "visuals": [
+        "Wheat/Grain crop close-up",
+        "Green fruit on a tree branch",
+        "Potatoes in soil and burlap sack",
+        "Corn cob",
+        "Almonds/Apricots on tree branches",
+        "Corn stalks in a field",
+        "A red tractor in a field"
+      ],
+     
+    
+   
+    "blogSection": {
+      "category": "OUR BLOGS",
+      "heading": "Explore Our Latest News & Tips",
+      "callToAction": "View All Blogs",
+      "posts": [
+        {
+          "date": "August 2, 2025",
+          "title": "Maximizing Crop Yields: Modern Techniques Every Farmer Should Know",
+          "imagePath": "/images/blog-maximizing-crop-yields.jpg",
+          "altText": "A field of bright yellow canola or rapeseed with a tree line in the background."
+        },
+        {
+          "date": "August 2, 2025",
+          "title": "Healthy Dairy, Higher Profits: Best Practices for Milking & Livestock Care",
+          "imagePath": "/images/blog-healthy-dairy.jpg",
+          "altText": "Black and white dairy cows grazing near a small pond."
+        },
+        {
+          "date": "August 2, 2025",
+          "title": "Choosing the Right Tractor: A Complete Guide for Farmers & Buyers",
+          "imagePath": "/images/blog-choosing-the-right-tractor.jpg",
+          "altText": "A green tractor with a large yellow fertilizer spreader attached in a field."
+        }
+      ]
+    },
+    "newsletterSection": {
+      "heading": "JOIN OUR NEWS LETTER",
+      "placeholderText": "Your Email Here",
+      "buttonText": "Join Now",
+      "backgroundImage": "/images/newsletter-signup-field.jpg",
+      "altText": "A wide, open green field under a bright blue sky."
+    }
+  
+}}
