@@ -1,6 +1,6 @@
 const MetricsBlock = ({ data }) => {
   return (
-    <section className=" mx-auto bg-[#30511D]  rounded-[4rem] p-8 mb:p-12">
+    <section className=" mx-auto bg-[#30511D]  dark:bg-[#131F15]  rounded-[84px] p-8 mb:p-12">
       <div className="flex flex-col md:flex-row justify-between items-start gap-6 mb-8">
         <h2 className="font-bold text-[28px] md:text-[36px] leading-[1.2] tracking-[0.1rem] text-[#F2FFE2] uppercase max-w-[500px]">
           {data.headline}

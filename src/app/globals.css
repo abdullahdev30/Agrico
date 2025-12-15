@@ -1,26 +1,37 @@
-@import "tailwindcss";
+/* 1️⃣ Google Font import (must be first) */
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
+/* 2️⃣ Tailwind v3 directives */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 3️⃣ Theme variables */
 :root {
-  --background: #ffffff;
-  --foreground: #e4ebcd;
+  --bg-color: #f5fcdf;
+  --text-color: #f2ffe2;
+  --btn-bg: #83a439;
+  --btn-text: #ffffff;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+.dark {
+  --bg-color: #141f17;
+  --text-color: #f2ffe2;
+  --btn-bg: #9ad97b;
+  --btn-text: #ffffff;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background:#ededcd ;
-    --foreground: #ededcd;
-  }
-}
-
+/* 4️⃣ Base styles */
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: "Inter", sans-serif;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* 5️⃣ Reusable component */
+.btn-primary {
+  @apply px-5 py-2 rounded-md font-medium transition;
+  background-color: var(--btn-bg);
+  color: var(--btn-text);
 }

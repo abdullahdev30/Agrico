@@ -113,53 +113,44 @@
         }
       ]
     },
-    "aboutSection": {
+  "aboutSection": {
       "category": "ABOUT OUR COMPANY",
       "heading": "Yielding Results Together",
-      "detailedDescription": "We are a comprehensive agricultural business dedicated to modern farming, dairy production, and agricultural machinery solutions. Combining over years of hands-on expertise with the latest technology, we ensure sustainable crop cultivation, healthy and hygienic dairy operations, and reliable tractor trading and equipment rental services. Our farms are equipped with solar-powered systems, CCTV monitoring, drone spraying, and submersible pumps, allowing us to maximize productivity and efficiency. Through our integrated approach, we help farmers and businesses achieve higher yields, healthier livestock, and consistent, dependable results — all while providing professional, customer-focused services in both English and Urdu.",
-      "visuals": [
-        "Wheat/Grain crop close-up",
-        "Green fruit on a tree branch",
-        "Potatoes in soil and burlap sack",
-        "Corn cob",
-        "Almonds/Apricots on tree branches",
-        "Corn stalks in a field",
-        "A red tractor in a field"
-      ],
-     
-    
-   
-    "blogSection": {
+      "detailedDescription": "We are a comprehensive agricultural business dedicated to modern farming, dairy production, and agricultural machinery solutions. Combining over years of hands-on expertise with the latest technology, we ensure sustainable crop cultivation, healthy and hygienic dairy operations, and reliable tractor trading and equipment rental services. Our farms are equipped with solar-powered systems, CCTV monitoring, drone spraying, and submersible pumps, allowing us to maximize productivity and efficiency. Through our integrated approach, we help farmers and businesses achieve higher yields, healthier livestock, and consistent, dependable results — all while providing professional, customer-focused services in both English and Urdu."
+      
+  },
+  
+  "blogSection" : {
       "category": "OUR BLOGS",
       "heading": "Explore Our Latest News & Tips",
       "callToAction": "View All Blogs",
-      "posts": [
+      "blog": [
         {
           "date": "August 2, 2025",
           "title": "Maximizing Crop Yields: Modern Techniques Every Farmer Should Know",
-          "imagePath": "/images/blog-maximizing-crop-yields.jpg",
+          "imagePath": "/home_page/blogs/blog1.svg",
           "altText": "A field of bright yellow canola or rapeseed with a tree line in the background."
         },
         {
           "date": "August 2, 2025",
           "title": "Healthy Dairy, Higher Profits: Best Practices for Milking & Livestock Care",
-          "imagePath": "/images/blog-healthy-dairy.jpg",
+          "imagePath": "/home_page/blogs/blog2.svg",
           "altText": "Black and white dairy cows grazing near a small pond."
         },
         {
           "date": "August 2, 2025",
           "title": "Choosing the Right Tractor: A Complete Guide for Farmers & Buyers",
-          "imagePath": "/images/blog-choosing-the-right-tractor.jpg",
+          "imagePath": "/home_page/blogs/blog3.svg",
           "altText": "A green tractor with a large yellow fertilizer spreader attached in a field."
         }
       ]
-    },
-    "newsletterSection": {
+ },
+  "newsletterSection": {
       "heading": "JOIN OUR NEWS LETTER",
       "placeholderText": "Your Email Here",
       "buttonText": "Join Now",
-      "backgroundImage": "/images/newsletter-signup-field.jpg",
+      "backgroundImage": "/home_page/joinus_bg.svg",
       "altText": "A wide, open green field under a bright blue sky."
     }
   
-}}
+}
