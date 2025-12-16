@@ -1,41 +1,91 @@
 const MetricsBlock = ({ data }) => {
   return (
-    <section className=" mx-auto bg-[#30511D]  dark:bg-[#131F15]  rounded-[84px] p-8 mb:p-12">
-      <div className="flex flex-col md:flex-row justify-between items-start gap-6 mb-8">
-        <h2 className="font-bold text-[28px] md:text-[36px] leading-[1.2] tracking-[0.1rem] text-[#F2FFE2] uppercase max-w-[500px]">
+    <section
+      className="
+        mx-4
+        rounded-[4rem] md:rounded-[3rem]
+        pt-0 sm:p-8 md:p-5
+        bg-[#30511D] dark:bg-[#131F15] text-primary-text
+      "
+    >
+      {/* Header */}
+      <div className="flex flex-col md:flex-row p-5 justify-between gap-6 mb-10">
+        <h2
+          className="
+            font-bold uppercase
+            text-2xl sm:text-3xl md:text-4xl
+            leading-tight tracking-wider
+            max-w-[520px]
+          "
+        >
           {data.headline}
         </h2>
-        <p className="font-semibold italic text-[18px] md:text-[22px] leading-[1.4] text-[#F2FFE2] max-w-[500px]">
+
+        <p
+          className="
+            font-medium italic
+            text-base sm:text-lg md:text-xl
+            leading-relaxed
+            max-w-[520px]
+          "
+        >
           {data.tagline}
         </p>
       </div>
 
+      {/* Content */}
       <div className="flex flex-col lg:flex-row gap-6">
-        <div className="flex flex-row gap-4 lg:w-[70%]">
+        {/* Images */}
+        <div className="flex gap-4 lg:w-[60%]">
           {data.imageGallery.map((image, index) => (
-            <div 
-              key={index} 
-              className="flex-1 h-[400px] md:h-[450px] rounded-xl overflow-hidden"
+            <div
+              key={index}
+              className="
+                flex-1
+                h-[260px] sm:h-[320px] md:h-[380px]
+                rounded-2xl overflow-hidden
+              "
             >
               <img
                 src={image.imagePath}
                 alt={image.altText}
-                className="w-full h-full rounded-[2rem] object-cover"
+                className="w-full h-full object-cover"
               />
             </div>
           ))}
         </div>
 
-        <div className="flex flex-col justify-between lg:w-[45%] gap-6">
+        {/* Metrics */}
+        <div className="flex flex-col pl-4 justify-between gap-6 md:gap-4 lg:w-[35%]">
           {data.metrics.map((metric, index) => (
             <div key={index} className="space-y-1">
-              <span className="block font-bold text-[40px] md:text-[52px] leading-none text-[#F2FFE2]">
+              <span
+                className="
+                  block font-bold
+                  text-3xl sm:text-4xl md:text-5xl
+                  leading-none
+                "
+              >
                 {metric.value}
               </span>
-              <h3 className="font-bold text-[16px] md:text-[18px] uppercase tracking-[0.05em] text-[#F2FFE2]">
+
+              <h3
+                className="
+                  font-semibold uppercase
+                  text-sm sm:text-base
+                  tracking-wider
+                "
+              >
                 {metric.title}
               </h3>
-              <p className="text-[14px] md:text-[15px] leading-[1.4] text-[#F2FFE2] max-w-[350px]">
+
+              <p
+                className="
+                  text-sm sm:text-[15px]
+                  leading-relaxed
+                  max-w-[400px]
+                "
+              >
                 {metric.details}
               </p>
             </div>

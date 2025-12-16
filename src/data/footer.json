@@ -1,0 +1,35 @@
+{
+ "links": {
+      "heading": "Quick Links",
+      "items": [
+        { "label": "Home", "href": "/" },
+        { "label": "Information", "href": "#info" },
+        { "label": "Services", "href": "#services" },
+        { "label": "Support", "href": "#support" }
+      ]
+    },
+    "contact": {
+     " heading": "Contact",
+      "address": {
+       " line1": "Agrico Farmhouse",
+        "line2": "Ferozepur Road, Near Kahna Nau,",
+        "line3": "Lahore, Pakistan"
+      },
+      "phones": [
+        { "number": "0300-1234567", "href": "tel:03001234567" },
+        { "number": "0311-1122334", "href": "tel:03111122334" }
+      ]
+    },
+    "socials": {
+      "heading": "Socials",
+      "items": [
+        { "icon": "fa-brands fa-facebook-f", "href": "https://facebook.com" },
+        { "icon": "fa-brands fa-instagram", "href": "https://instagram.com" },
+        { "icon": "fa-brands fa-linkedin-in", "href": "https://linkedin.com" },
+        { "icon": "fa-brands fa-x-twitter", "href": "https://x.com" },
+        { "icon": "fa-brands fa-whatsapp", "href": "https://wa.me/..." }
+      ]
+    },
+    "logoTextLarge": "AGRICO",
+    "grassImage": "/images/grass-header.jpg"
+}

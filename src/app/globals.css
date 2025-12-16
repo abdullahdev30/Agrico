@@ -1,27 +1,26 @@
-/* 1️⃣ Google Font import (must be first) */
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
-/* 2️⃣ Tailwind v3 directives */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* 3️⃣ Theme variables */
 :root {
-  --bg-color: #f5fcdf;
-  --text-color: #f2ffe2;
-  --btn-bg: #83a439;
-  --btn-text: #ffffff;
+  --bg-color: #F5FCDF;
+  --text-color: #F9FAD9;
+  --text-light-color:#262A1D;
+  --btn-bg: #83A439;
+  --btn-text: #F9FAD9;
 }
 
 .dark {
-  --bg-color: #141f17;
-  --text-color: #f2ffe2;
-  --btn-bg: #9ad97b;
-  --btn-text: #ffffff;
+  --bg-color: #000000;
+  --text-color: #F2FFE2;
+  --btn-bg: #9AD97B;
+  --btn-text: #F2FFE2;
+    --text-light-color:#F2FFE2;
+
 }
 
-/* 4️⃣ Base styles */
 body {
   background-color: var(--bg-color);
   color: var(--text-color);
@@ -29,9 +28,8 @@ body {
   transition: background-color 0.3s, color 0.3s;
 }
 
-/* 5️⃣ Reusable component */
 .btn-primary {
-  @apply px-5 py-2 rounded-md font-medium transition;
+  @apply px-4 py-2 rounded-md font-medium transition;
   background-color: var(--btn-bg);
   color: var(--btn-text);
 }

@@ -1,10 +1,11 @@
-import siteData from "../data/home.json";
+import siteData from "../../data/home.json";
 
 const NewsletterSection = () => {
   const data = siteData.newsletterSection;
 
   return (
-    <section  className="relative rounded-[86px] m-4 overflow-hidden bg-cover bg-center min-h-[550px] flex items-center justify-center"
+    <section  className="relative   rounded-[3rem] sm:rounded-[2rem] md:rounded-[2rem]
+ m-4 overflow-hidden bg-cover bg-center min-h-screen flex items-center justify-center"
         style={{ backgroundImage: `url(${data.backgroundImage})` }}
       >
       
@@ -19,10 +20,10 @@ const NewsletterSection = () => {
             <input
               type="email"
               placeholder="your email here"
-              className="w-full sm:w-[420px] text-[#E4EBCD] px-6 bg-[#30511D] py-3 rounded-full bg-olive text-cream placeholder:text-cream/70 placeholder:center outline-none"
+              className="w-full sm:w-[420px]  px-6 bg-[#30511D] dark:bg-primary py-3 rounded-full text-text-light placeholder:text-cream/70 placeholder:center outline-none"
             />
 
-            <button className="px-8 py-3 rounded-full bg-[#E4EBCD] text-[#30511D] font-medium hover:bg-cream/90 transition">
+            <button className="px-8 py-3 rounded-full bg-[#E4EBCD]  dark:bg-primary font-medium text-text-light hover:bg-cream/90 transition">
               {data.buttonText}
             </button>
           </div>
