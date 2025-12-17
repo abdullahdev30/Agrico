@@ -26,7 +26,7 @@ const InnovationSection = ({ data }) => {
             key={index}
             className="flex flex-col items-center transition-transform transform hover:scale-105"
           >
-            <div className="w-full aspect-[4/3] rounded-[2rem] overflow-hidden ">
+            <div className="w-full  rounded-[2rem] overflow-hidden ">
               <img
                 src={feature.imagePath}
                 alt={feature.altText}

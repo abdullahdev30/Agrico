@@ -22,7 +22,7 @@ const ScrollFlipSection = ({ children, direction = "up" }) => {
   const scale = useSpring(useTransform(scrollYProgress, [0, 0.3, 0.7, 1], [0.9, 1, 1, 0.9]), { stiffness: 80, damping: 25 });
 
   return (
-    <div ref={ref} className="scroll-section h-screen">
+    <div ref={ref} className="scroll-section">
       <motion.div
         style={{
           rotateX,

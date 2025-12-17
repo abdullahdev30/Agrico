@@ -45,7 +45,7 @@ export default function Home() {
 
       {/* Why Choose Us - flip from left */}
       <ScrollFlipSection index={6} direction="left">
-        <Whychooseus />
+        <Whychooseus data={data.reasonsToChooseSection}/>
       </ScrollFlipSection>
 
       {/* Join Us - flip from right */}
