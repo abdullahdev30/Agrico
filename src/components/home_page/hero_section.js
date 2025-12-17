@@ -1,57 +1,63 @@
-import Navbar from "../navbar";
+"use client"
+
+import { motion } from "framer-motion"
+import Navbar from "../navbar"
 
 const HeroSection = ({ data }) => {
   return (
     <section
       className="
-         h-screen
-        sm:min-h-[580px]
+        relative
+        h-screen sm:min-h-[580px]
         bg-cover bg-center
         rounded-[3rem] sm:rounded-[2rem] md:rounded-[2rem]
         mx-6
         bg-bg text-text
+        flex flex-col  items-center
+        px-6
       "
       style={{ backgroundImage: `url("/home_page/hero_bg.svg")` }}
     >
-      <Navbar className="m-6 md:m-10" />
+      <Navbar className="m-6 md:m-10 w-full" />
 
       {/* Heading */}
-      <h1
+      <motion.h1
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.8, ease: "easeOut" }}
         className="
-          absolute left-1/2 top-[42%]
-          -translate-x-1/2
-          w-[90%] max-w-[1100px]
-          text-center font-semibold
+         mt-[12%]
+          text-center font-semibold 
           text-3xl sm:text-4xl md:text-5xl
-          leading-tight
-          tracking-wide
+          leading-tight tracking-wide
+          max-w-[1100px] w-full
         "
       >
         {data.title}
-      </h1>
+      </motion.h1>
 
       {/* Description */}
-      <p
+      <motion.p
+        initial={{ opacity: 0, y: 15 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.8, ease: "easeOut", delay: 0.12 }}
         className="
-          absolute left-1/2 top-[62%]
-          -translate-x-1/2
-          w-[90%] max-w-[850px]
+          mt-4
           text-center font-medium
           text-base sm:text-lg md:text-xl
-          leading-relaxed
-          tracking-wide
+          leading-relaxed tracking-wide
+          max-w-[850px] w-full
         "
       >
         {data.description}
-      </p>
+      </motion.p>
 
       {/* Bottom CTA */}
-      <div
-        className="
-          absolute left-1/2 bottom-6 md:bottom-8
-          -translate-x-1/2
-          flex flex-col items-center gap-3
-        "
+      <motion.div
+        initial={{ opacity: 0, y: 10 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6, ease: "easeOut", delay: 0.24 }}
+        className="mt-8 flex flex-col items-center gap-3"
       >
         <a
           href="/"
@@ -69,18 +75,16 @@ const HeroSection = ({ data }) => {
 
         <div
           className="
-            w-5 h-11 sm:w-3 sm:h-12
+            w-5 h-11 sm:w-3 sm:h-12 
             rounded-full
             bg-white
             flex items-center justify-center
             text-sm md:text-base
           "
-        >
-          
-        </div>
-      </div>
+        />
+      </motion.div>
     </section>
-  );
-};
+  )
+}
 
-export default HeroSection;
+export default HeroSection

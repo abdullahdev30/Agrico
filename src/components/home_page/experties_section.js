@@ -2,7 +2,7 @@
 
 const Expertise = ({ data }) => {
   return (
-    <section className="w-full max-w-7xl min-h-screen bg-[#30511D] dark:bg-[#141F17] text-expertise-foreground px-4 py-8 md:px-8   rounded-[2.5rem] p-6 sm:p-8 md:p-12 m-8 lg:px-12 flex items-center">
+    <section className=" max-w-7xl min-h-screen bg-[#30511D] dark:bg-[#141F17] text-expertise-foreground px-4 py-8 md:px-8   rounded-[2.5rem] p-6 sm:p-8 md:p-12 m-8 lg:px-12 flex items-center">
       <div className="w-full max-w-7xl mx-auto">
         <div className="flex flex-col lg:flex-row justify-between items-start gap-6 mb-8 lg:mb-12">
           <h2 className="font-display font-bold text-2xl md:text-4xl lg:text-5xl italic tracking-tight max-w-md">

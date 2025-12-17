@@ -33,3 +33,36 @@ body {
   background-color: var(--btn-bg);
   color: var(--btn-text);
 }
+
+.page-container {
+    @apply h-screen overflow-y-scroll;
+    scroll-snap-type: y mandatory;
+    scroll-behavior: auto; /* disable smooth scroll */
+  
+}
+
+.section {
+  @apply h-screen flex items-center justify-center;
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+  }
+html {
+  scroll-snap-type: y mandatory;
+}
+
+.scroll-section {
+  min-height: 100vh;
+  scroll-snap-align: start;
+  position: relative;
+}
+
+/* Progress bar */
+.progress {
+  position: fixed;
+  bottom: 30px;
+  left: 0;
+  right: 0;
+  height: 4px;
+  transform-origin: left;
+  transform: scaleX(0);
+}
