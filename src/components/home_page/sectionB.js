@@ -2,7 +2,7 @@ const MetricsBlock = ({ data }) => {
   return (
     <section
       className="
-        mx-4
+        mx-4 h-screen
         rounded-[4rem] md:rounded-[3rem]
         pt-0 sm:p-8 md:p-5
         bg-[#30511D] dark:bg-[#131F15] text-primary-text
@@ -42,7 +42,7 @@ const MetricsBlock = ({ data }) => {
               key={index}
               className="
                 flex-1
-                h-[260px] sm:h-[320px] md:h-[380px]
+                h-[260px] sm:h-[320px] md:h-[380px] 2xl:h-[450px] 2xl:w-[350px]
                 rounded-2xl overflow-hidden
               "
             >
