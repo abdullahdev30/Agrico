@@ -101,8 +101,8 @@ const WhyChooseAgrico = ({ data }) => {
           viewport={{ once: true }}
           className="
             absolute
-            top-[60%] 2xl:top-[55%]
-            left-[59%] xl:left-[58%] 2xl:left-[60%]
+            top-[60%] 2xl:top-[60%]
+            left-[59%] xl:left-[55%] 2xl:left-[60%]
             bg-[#466333] dark:bg-[#1C2A22]
             border-4 border-cream-dark/30
             w-[400px] md:w-[500px] xl:w-[550px] 2xl:w-[600px]
