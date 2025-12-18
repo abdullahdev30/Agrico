@@ -41,12 +41,12 @@ const WhyChooseAgrico = ({ data }) => {
           viewport={{ once: true }}
           className="
             absolute
-            top-1 2xl:top-4
+            top-1 2xl:top-1
             left-24 xl:left-32 2xl:left-48
             bg-[#466333] dark:bg-[#1C2A22]
             border-4 border-cream-dark/30
             md:w-[500px] xl:w-[550px] 2xl:w-[600px]
-            md:h-[210px] xl:h-[250px] 2xl:h-[300px]
+            md:h-[210px] xl:h-[240px] 2xl:h-[280px]
             rounded-3xl p-6 xl:p-8
             backdrop-blur-sm
           "
@@ -62,7 +62,7 @@ const WhyChooseAgrico = ({ data }) => {
 
         {/* Center heading */}
         <div className="absolute top-[55%] -translate-y-1/2">
-          <h2 className="text-[44px] xl:text-[44px] 2xl:text-[56px] font-bold text-text-light">
+          <h2 className="text-[44px] xl:text-[44px] 2xl:text-[52px] font-bold text-text-light">
             WHY CHOOSE AGRICO.
           </h2>
         </div>
@@ -76,11 +76,11 @@ const WhyChooseAgrico = ({ data }) => {
           className="
             absolute
             top-[25%]
-            left-[45%] xl:left-[42%] 2xl:left-[40%]
+            left-[45%] xl:left-[42%] 2xl:left-[44%]
             bg-[#466333] dark:bg-[#1C2A22]
             border-4 border-cream-dark/30
             md:w-[500px] xl:w-[550px] 2xl:w-[600px]
-            md:h-[210px] xl:h-[250px] 2xl:h-[300px]
+            md:h-[210px] xl:h-[240px] 2xl:h-[280px]
             rounded-3xl p-6 xl:p-8
           "
         >
@@ -101,12 +101,12 @@ const WhyChooseAgrico = ({ data }) => {
           viewport={{ once: true }}
           className="
             absolute
-            top-[60%] 2xl:top-[60%]
+            top-[60%] 2xl:top-[58%]
             left-[59%] xl:left-[55%] 2xl:left-[60%]
             bg-[#466333] dark:bg-[#1C2A22]
             border-4 border-cream-dark/30
             w-[400px] md:w-[500px] xl:w-[550px] 2xl:w-[600px]
-            md:h-[210px] xl:h-[250px] 2xl:h-[300px]
+            md:h-[210px] xl:h-[240px] 2xl:h-[280px]
             rounded-3xl p-6 xl:p-8
             backdrop-blur-sm
           "
