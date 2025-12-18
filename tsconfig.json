@@ -29,6 +29,6 @@
     ".next/types/**/*.ts",
     ".next/dev/types/**/*.ts",
     "**/*.mts"
-, "src/app/page.js", "src/app/animations/ScrollAnimationProvider.js"  ],
+, "src/app/page.js", "src/app/animations/ScrollAnimationProvider.js", "src/components/home_page/whychooseus.js"  ],
   "exclude": ["node_modules"]
 }

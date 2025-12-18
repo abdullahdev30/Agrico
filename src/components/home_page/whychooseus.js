@@ -3,9 +3,9 @@ import { motion } from "framer-motion";
 
 const WhyChooseAgrico = ({ data }) => {
   return (
-    <section className="relative bg-[#30511D] dark:bg-[#6F8F6A] min-h-screen rounded-[3rem] md:rounded-[86px] px-4 sm:px-6 md:px-14 mx-2 sm:mx-4 md:mx-8 overflow-hidden">
+    <section className="relative bg-[#30511D] dark:bg-[#6F8F6A] min-h-screen rounded-[2rem] px-4 sm:px-6 md:px-14 mx-2 sm:mx-4 md:mx-8 overflow-hidden">
       
-      {/* MOBILE LAYOUT */}
+      {/* ================= MOBILE LAYOUT ================= */}
       <div className="lg:hidden flex flex-col gap-8">
         <h2 className="text-center text-2xl sm:text-3xl font-semibold text-cream">
           WHY CHOOSE AGRICO.
@@ -30,27 +30,37 @@ const WhyChooseAgrico = ({ data }) => {
         ))}
       </div>
 
-      {/* DESKTOP LAYOUT */}
-      <div className="hidden lg:block h-screen relative">
+      {/* ================= DESKTOP LAYOUT ================= */}
+      <div className="hidden lg:block ml-0.5 h-screen relative max-w-[1600px] mx-auto">
+        
         {/* Top-left card */}
         <motion.div
           initial={{ opacity: 0, y: 100 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, ease: "easeOut" }}
-          className="absolute top-4 xl:top-1 left-8 xl:left-40 bg-[#466333] dark:bg-[#1C2A22] border-4 border-cream-dark/30 rounded-3xl p-6 w-[400px] xl:w-[500px] min-h-[180px] xl:h-[203px] backdrop-blur-sm"
+          className="
+            absolute
+            top-1  2xl:top-1
+            left-24  2xl:left-48
+            bg-[#466333] dark:bg-[#1C2A22]
+            border-4 border-cream-dark/30
+            md:w-[500px]  2xl:w-[700px] 2xl:h-[300px]
+            md:h-[210px]
+            rounded-3xl p-6 backdrop-blur-sm
+          "
         >
-          <h3 className="text-cream text-xl font-semibold mt-2">
+          <h3 className="text-text-light text-xl font-bold mt-3">
             Expert Agricultural Knowledge
           </h3>
-          <p className="text-cream/80 text-sm leading-relaxed">
+          <p className="text-text-light text-xl leading-relaxed">
             Our team brings decades of farming expertise to help you maximize crop
             yields and implement sustainable practices.
           </p>
         </motion.div>
 
-        {/* Heading – center left */}
-        <div className="absolute top-1/2 left- transform -translate-y-1/2">
-          <h2 className="text-[32px] xl:text-[40px] font-semibold text-cream">
+        {/* Center-left heading */}
+        <div className="absolute top-[55%]  -translate-y-1/2">
+          <h2 className="text-[44px]  2xl:text-[56px] font-bold text-text-light">
             WHY CHOOSE AGRICO.
           </h2>
         </div>
@@ -60,12 +70,21 @@ const WhyChooseAgrico = ({ data }) => {
           initial={{ opacity: 0, x: -100 }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 1, ease: "easeOut", delay: 0.2 }}
-          className="absolute top-[28%] left-[40%] xl:left-[43%] bg-[#466333] dark:bg-[#1C2A22] border-4 border-cream-dark/30 rounded-3xl p-6 w-[400px] xl:w-[500px] min-h-[180px] xl:h-[203px]"
+          className="
+            absolute
+            top-[25%]
+            left-[45%]  2xl:left-[40%]
+            bg-[#466333] dark:bg-[#1C2A22]
+            border-4 border-cream-dark/30
+            md:w-[500px]  2xl:w-[700px] 2xl:h-[300px]
+            md:h-[210px]
+            rounded-3xl p-6
+          "
         >
-          <h3 className="text-cream text-xl font-semibold mt-2">
+          <h3 className="text-text-light text-xl font-bold mt-3">
             Cutting-Edge Technology
           </h3>
-          <p className="text-cream/80 text-sm leading-relaxed">
+          <p className="text-text-light text-xl leading-relaxed">
             We utilize the latest agricultural technology and equipment to ensure
             efficient and modern farming solutions.
           </p>
@@ -76,12 +95,21 @@ const WhyChooseAgrico = ({ data }) => {
           initial={{ opacity: 0, y: -100 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, ease: "easeOut", delay: 0.2 }}
-          className="absolute bottom-8 xl:bottom-2 left-[56%] bg-[#466333] dark:bg-[#1C2A22] border-4 border-cream-dark/30 rounded-3xl p-6 w-[400px] xl:w-[500px] min-h-[180px] xl:h-[203px] backdrop-blur-sm"
+          className="
+            absolute
+            bottom-1 2xl:bottom-1
+            left-[59%]  2xl:left-[60%]
+            bg-[#466333] dark:bg-[#1C2A22]
+            border-4 border-cream-dark/30
+            w-[400px] md:w-[500px] xl:w-[500px] 2xl:w-[700px] 2xl:h-[300px]
+            md:h-[210px]
+            rounded-3xl p-6 backdrop-blur-sm
+          "
         >
-          <h3 className="text-cream text-xl font-semibold">
+          <h3 className="text-text-light text-xl font-bold mt-3">
             Sustainable Practices
           </h3>
-          <p className="text-cream/80 text-sm leading-relaxed mt-4">
+          <p className="text-text-light text-xl mt-4">
             Environmental responsibility is at our core. We promote eco-friendly
             farming methods that protect our planet.
           </p>
